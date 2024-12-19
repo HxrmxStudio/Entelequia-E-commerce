@@ -20,15 +20,15 @@ The platform is developed using the **MERN stack** (MongoDB, Express, React, Nod
 - 🛒 **Add, update, and remove** products in the shopping cart.
 - 💳 **Securely purchase** products via integrated payment gateways.
 - 👤 **Manage account details** (name, address, etc.).
-- 📝 **Leave reviews** on purchased products.
-- ⭐ **Mark favorites** to quickly access preferred comics.
+- 📝 **Leave reviews** on purchased products.(V.02)
+- ⭐ **Mark favorites** to quickly access preferred comics.(V.02)
 - 📜 **View purchase history** and track orders.
 
 ### 🛠️ **Admin Features**
 
-- 🗂️ **Manage products**: Add, edit, and delete comic and manga listings.
-- 📈 **Manage orders**: Update the status of customer orders.
-- 📢 **Handle user feedback**: Review and respond to customer comments.
+- 🗂️ **Manage products**: Add, edit, and delete comic and manga listings.(V.02)
+- 📈 **Manage orders**: Update the status of customer orders.(V.02)
+- 📢 **Handle user feedback**: Review and respond to customer comments.(V.02)
 
 ---
 
