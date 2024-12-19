@@ -125,17 +125,21 @@ The interface was designed with **Figma** to ensure a responsive and intuitive e
 
 ### 🚀 Technologies Used
 
-- Frontend: HTML, Tailwind CSS, JavaScript, React
+- Frontend: React,JavaScript,Tailwind CSS,React Router,React Toastify
 
-- Backend: Node.js, Express,Mongoose, JWT,Bcrypt
+- Backend: Node.js, Express,Mongoose, JWT,Bcrypt,Bcrypt
 
 - Database: MongoDB
 
-- Testing: Mocha & Chai for unit and API testing
+- Testing: Mocha & Chai 
 
 
 ### 📊 Test Coverage
-The project includes test coverage for critical backend logics. Tests ensure smooth functioning of all major features, including the shopping cart and user authentication.
+The project includes unit and API tests to ensure stability and functionality of key backend features, such as:
+- Shopping Cart
+- User Authentication
+- Order Management
+- Payment Processing
 
 ```sh
 ----------------------------|---------|----------|---------|---------|--------------------------------
