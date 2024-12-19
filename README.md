@@ -1,6 +1,6 @@
 # 📚 **Entelequia Comic-Book Store** 🦸‍♂️💥
 
-![Entelequia Demo](image.png)
+![Entelequia Demo](image-1.png)
 
 ---
 
