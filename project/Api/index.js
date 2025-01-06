@@ -15,7 +15,7 @@ server.use(
             'http://localhost:7000',             // Local dev server
             'http://localhost:5173',             // Local dev frontend
             'https://entelequia-frontend.vercel.app',  // Frontend en producción
-            'https://entelequia-frontend-bff6d92fd-emilianos-projects-56981ad9.vercel.app'  // Nuevo dominio de Vercel
+            'https://entelequia-frontend-r4bs3xpyd-emilianos-projects-56981ad9.vercel.app/'  // Nuevo dominio de Vercel
         ],
         credentials: true,
     })
