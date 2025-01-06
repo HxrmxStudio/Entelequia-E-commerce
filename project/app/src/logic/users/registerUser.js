@@ -11,7 +11,7 @@ export default (name, email, username, password, passwordRepeat) => {
 
     return fetch(`${import.meta.env.VITE_API_URL}/users`, {
         method: 'POST',
-        mode: 'no-cors',
+
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ name, email, username, password, 'password-repeat': passwordRepeat })
     })

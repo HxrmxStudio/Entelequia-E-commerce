@@ -9,7 +9,6 @@ export default (orderId, status) => {
     return fetch(`${import.meta.env.VITE_API_URL}/orders/update/${orderId}`,
         {
             method: 'PATCH',
-            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${localStorage.token}`

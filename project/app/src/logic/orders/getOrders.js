@@ -4,7 +4,7 @@ const { SystemError } = errors
 
 export default () => {
     return fetch(`${import.meta.env.VITE_API_URL}/orders`, {
-        mode: 'no-cors',
+
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${localStorage.token}`

@@ -6,7 +6,6 @@ export default (orderId, paymentMethodId, provider) => {
     validate.id(orderId, 'orderId')
 
     return fetch(`${import.meta.env.VITE_API_URL}/payments/intent`, {
-        mode: 'no-cors',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
