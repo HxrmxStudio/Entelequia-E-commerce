@@ -7,6 +7,7 @@ export default () => {
     const { sub: userId } = extractPayloadFromJWT(localStorage.token)
 
     return fetch(`${import.meta.env.VITE_API_URL}/users/${userId}/profile`, {
+        mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
             Authorization: `Bearer ${localStorage.token}`
