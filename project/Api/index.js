@@ -11,15 +11,10 @@ const server = express();
 // Middleware y configuraciones
 server.use(
     cors({
-        origin: [
-            'http://localhost:7000',             // Local dev server
-            'http://localhost:5173',             // Local dev frontend
-            'https://entelequia-frontend.vercel.app',  // Frontend en producción
-            'https://entelequia-frontend-r4bs3xpyd-emilianos-projects-56981ad9.vercel.app'  // Nuevo dominio de Vercel
-        ],
+        origin: '*',  // Permite todos los orígenes para pruebas
         credentials: true,
     })
-);
+)
 
 // Ruta principal
 server.get('/', (_, res) => res.send('Welcome to Entelequia Comic - Book Store API!'));
