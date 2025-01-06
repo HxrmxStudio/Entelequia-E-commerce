@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "prepare": "cp -r ../dat ./dat && cp -r ../com ./com",
     "start": "node .",
     "inspect": "node --inspect-brk .",
     "test": "mocha logic/**/*.spec.js",
