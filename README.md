@@ -10,7 +10,7 @@
 
 The platform is developed using the **MERN stack** (MongoDB, Express, React, Node.js) and provides a smooth, intuitive user experience.
 
-🔗 **Try the live demo here**: [Entelequia Comic-Book Store Demo](https://entelequia-e-commerce.vercel.app)
+🔗**Try the live demo here**: [Entelequia Comic-Book Store Demo](https://entelequia-frontend.vercel.app/)
 ---
 
 ## 💡 **Key Features**
