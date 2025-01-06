@@ -11,7 +11,7 @@ const server = express()
 // Middleware y configuraciones
 server.use(
     cors({
-        origin: ['http://localhost:7000', 'https://entelequia-frontend.vercel.app/', 'http://localhost:5173'],
+        origin: ['http://localhost:7000', 'https://entelequia-frontend.vercel.app', 'http://localhost:5173'],
         credentials: true,
     })
 )
