@@ -2,7 +2,7 @@ import { errors } from 'com';
 const { SystemError } = errors
 
 export default () =>
-    fetch(`${import.meta.env.VITE_API_URL}/products`)
+   fetch(`http://${import.meta.env.VITE_API_URL}/products`)
         .catch(error => { throw new SystemError(error.message) })
         .then(res => {
             if (res.ok) {
