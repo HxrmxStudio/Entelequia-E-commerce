@@ -9,7 +9,7 @@ export default (street, phone, city, country, postalCode) => {
     validate.text(country, 'country')
     validate.postalCode(postalCode, 'postalCode')
 
-    return fetch(`http://${import.meta.env.VITE_API_URL}/users/profile`, {
+    return fetch(`${import.meta.env.VITE_API_URL}/users/profile`, {
         method: 'PATCH',
         headers: {
             'Content-Type': 'application/json',

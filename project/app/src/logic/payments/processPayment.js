@@ -5,7 +5,7 @@ const { SystemError } = errors
 export default (orderId, paymentMethodId, provider) => {
     validate.id(orderId, 'orderId')
 
-    return fetch(`http://${import.meta.env.VITE_API_URL}/payments/intent`, {
+    return fetch(`${import.meta.env.VITE_API_URL}/payments/intent`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

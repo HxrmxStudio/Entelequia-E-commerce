@@ -6,7 +6,7 @@ export default (orderId, status) => {
     validate.id(orderId, 'orderId')
     validate.status(status, 'order')
 
-    return fetch(`http://${import.meta.env.VITE_API_URL}/orders/update/${orderId}`,
+    return fetch(`${import.meta.env.VITE_API_URL}/orders/update/${orderId}`,
         {
             method: 'PATCH',
             headers: {
