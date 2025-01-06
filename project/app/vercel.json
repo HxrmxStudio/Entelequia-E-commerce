@@ -1,12 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/api/(.*)",
-            "destination": "https://entelequia-backend.vercel.app/api/$1"
-        },
-        {
             "source": "/(.*)",
-            "destination": "/"
+            "destination": "https://entelequia-backend.vercel.app/$1"
         }
     ]
 }
