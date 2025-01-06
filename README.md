@@ -1,71 +1,61 @@
-#  <center>📚Entelequia Comic-Book Store📚</center>
-![alt text](image-1.png)
-## 📖 Intro
+# 📚 **Entelequia Comic-Book Store** 🦸‍♂️💥
 
-Entelequia Comic-Book Store es un proyecto de e-commerce que ofrece una amplia variedad de cómics , Manga y todo lo relacionado al mundo geek 🤓. 
-Inspirado en el negocio en el cual pase casi toda mi vida, este sitio web permitirá a los usuarios explorar, seleccionar y comprar Cómics/Mangas, además de acceder a contenido exclusivo sobre sus personajes y series favoritos.
+![Entelequia Demo](project/doc/image-1.png)
 
-## 💡Functional Overview
+---
 
-### 🎯Use Cases
+## 📖 **Introduction**
 
- #### User 
+**Entelequia Comic-Book Store** is an **e-commerce platform** designed for comic, manga, and geek culture enthusiasts 🤓. Inspired by a family business with years of history, this web application allows users to explore, select, and purchase comics and manga while offering exclusive content about their favorite characters and series.
 
-- 🔍 Browse comics by category / subCategory
+The platform is developed using the **MERN stack** (MongoDB, Express, React, Node.js) and provides a smooth, intuitive user experience.
 
-- 🛒 Add / Update /Remove products to a shopping cart
+---
 
-- 💳 Purchase products
+## 💡 **Key Features**
 
-- 👤 Manage account details
+### 🛒 **User Features**
 
-- 📝 Create reviews on purchased items (1.0)
+- 🔍 **Browse** comics and manga by categories and subcategories.
+- 🛒 **Add, update, and remove** products in the shopping cart.
+- 💳 **Securely purchase** products via integrated payment gateways.
+- 👤 **Manage account details** (name, address, etc.).
+- 📝 **Leave reviews** on purchased products.(V.02)
+- ⭐ **Mark favorites** to quickly access preferred comics.(V.02)
+- 📜 **View purchase history** and track orders.
 
-- ⭐ View and mark comics as favorites(1.0)
+### 🛠️ **Admin Features**
 
-- 📜 View purchase history 
+- 🗂️ **Manage products**: Add, edit, and delete comic and manga listings.(V.02)
+- 📈 **Manage orders**: Update the status of customer orders.(V.02)
+- 📢 **Handle user feedback**: Review and respond to customer comments.(V.02)
 
-- 📦 Track order status
+---
 
-#### Admin 
-- 🗂️ Manage product listings ( add | edit | delete) (1.0)
+## 🎨 **UX/UI Design**
 
-- 📈 Manage clients orders (change status)(1.0)
+The interface was designed with **Figma** to ensure a responsive and intuitive experience on both desktop and mobile devices.
 
-- 📢 Review and respond to user feedback(1.0)
+🔗 [**Figma Wireframe**](https://www.figma.com/design/n9w5SAKtC9lT4FHbCasC9c/Project-E-commerce?node-id=0-1&t=m6Cd2jkL9vMvlILw-1)
 
+![Entelequia Demo](pageDemo.gif)
 
-### 🎨 UXUI Design
+---
 
-[Figma Wireframe](https://www.figma.com/design/n9w5SAKtC9lT4FHbCasC9c/Project-E-commerce?node-id=0-1&t=m6Cd2jkL9vMvlILw-1)
+## ⚙️ **Technical Overview**
 
-Here are the initial wireframes for an intuitive, responsive interface. The designs are optimized for both desktop and mobile devices.
+### 📂 **Project Structure**
 
+- **Frontend**: React and Tailwind CSS for a modern, responsive UI.
+- **Backend**: Node.js with Express for a robust REST API.
+- **Database**: MongoDB to manage users, products, and orders.
 
-![alt text](pageDemo.gif)  
+### 📦 **Key Packages**
 
-
-## ⚙️Technical Overview
-
-### 🔧 Project Structure
-
-- **App**: Client-side React application
-
-- **API**: Server-side API built with Express
-
-- **DB**: MongoDB database for storing products, users, and orders
-
-### 📦 Key Packages
-
-- **doc**: Project documentation
-
-- **app**: Client-side React application
-
-- **api**: Server-side API with Express
-
-- **dat**: Data model and MongoDB connection
-
-- **com**: Common utilities, validation functions, etc.
+- **Authentication**: JWT and bcrypt for secure user management.
+- **State Management**: Context API (`ShopContext`) for managing global state (products, cart, etc.).
+- **Testing**: Mocha and Chai for unit and API testing.
+- **Notifications**: React Toastify for instant user feedback.
 
 ### 🗃️ Data Model
 
@@ -135,17 +125,21 @@ Here are the initial wireframes for an intuitive, responsive interface. The desi
 
 ### 🚀 Technologies Used
 
-- Frontend: HTML, Tailwind CSS, JavaScript, React
+- Frontend: React,JavaScript,Tailwind CSS,React Router,React Toastify
 
-- Backend: Node.js, Express,Mongoose, JWT,Bcrypt
+- Backend: Node.js, Express,Mongoose, JWT,Bcrypt,Bcrypt
 
 - Database: MongoDB
 
-- Testing: Mocha & Chai for unit and API testing
+- Testing: Mocha & Chai 
 
 
 ### 📊 Test Coverage
-The project includes test coverage for critical backend logics. Tests ensure smooth functioning of all major features, including the shopping cart and user authentication.
+The project includes unit and API tests to ensure stability and functionality of key backend features, such as:
+- Shopping Cart
+- User Authentication
+- Order Management
+- Payment Processing
 
 ```sh
 ----------------------------|---------|----------|---------|---------|--------------------------------
